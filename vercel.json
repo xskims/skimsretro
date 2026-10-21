@@ -1,0 +1,8 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    { "source": "/html5game/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] },
+    { "source": "/(.*\\.js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
+  ]
+}
